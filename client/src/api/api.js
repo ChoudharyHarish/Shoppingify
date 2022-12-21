@@ -1,7 +1,8 @@
 import axios from 'axios'
 
 
-const url = "http://localhost:5000/api";
+const url = "https://shoppingify-three.vercel.app/api";
+
 
 const signUp = (data) => axios.post(`${url}/auth/signup`, data);
 const signIn = (data) => axios.post(`${url}/auth/login`, data);
