@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.justify-between{
+     justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.mt-4{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 0.5rem;
+}
+.m-4{
+    margin: 1rem 0rem;
+}
+.mb-4{
+    margin-bottom: 1rem;
+}
+.mb-8{
+    margin-bottom: 2rem;
+}
+.pd-4{
+    padding: 1rem;
+}
+.pd-6{
+    padding: 1.6rem;
+}
+.pd-2{
+     padding: 0.2rem;
+}
+.pd-6{
+    padding: 1.5rem;
+}
+.pd-8{
+    padding: 2rem;
+}
+.ptb-4{
+ padding: 0.5rem 0rem;
+}
+.border{
+    border: 3px solid red;
+}
+.resp{
+    height: 100px;
+    width: 100px;
+    /* position: absolute; */
+}
+.flex-1{
+    flex-grow: 1;
+}
+.m-2{
+    margin: 0rem 1rem 1rem 0rem
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.pt-4{
+    padding-top: 1rem;
+}
+
+.w-5{
+    width: 160px;
+}
+
+.w-100{
+    height: 100%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.wt-100{
+    width: 100%;
+}
+
+.pb-0{
+    padding-bottom: 0px;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.bg-maron{
+    background-color:#80485B;
+    border-radius: 25px;
+}
+
+.mr-2{
+    margin-left: 0.5rem;
+}
+
+.text-black{
+    color : black;
+}
+
+.mt-8{
+    margin-top: 1.5em;
+}
+
+.btn{
+    padding: 0.4rem;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #F9A109;
+    border-radius: 24px;
+}
+
+.btn2{
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #F9A109;
+    color: white;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.ht-100{
+    height: 80vh;
+}
+
+.input{
+    padding: 0.7rem;
+    border: none;
+    border: 1px solid rgb(150, 150, 150);
+    outline: none;
+}
+
+.note{
+    height:160px;
+}
+
+.mtb{
+    margin: 1rem 0rem;
+}
+
+.img-resp{
+    height: 250px;
+    width:100%;
+    border-radius: 18px;
+}
+.object-cover{
+    object-fit: cover;
+}
+.img-container{
+    /* height: 40%; */
+   width: 100%;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.br-10{
+    border-radius: 10px;
+}
+
+.bg{
+    background-color: #fafaff;
+}
+.bgw{
+    background-color: white;
+}
+
+
+@media only screen and (max-width:914px) {
+
+    .sideBar{
+        /* border: 3px solid; */
+        width: 50%  !important;
+    }
+}
